@@ -7,15 +7,14 @@ nav>strong{
     top: 3%;
     }
     body {
-        background-color: lightgrey;
-        color: blue;
-      }
+        background-color: lightgrey; 
+        color: blue;}
 div{
     font-size: xx-large;
 }
     div>sub{
         position: absolute;
-        left: 30%;
+        left: 20%;
         text-transform: capitalize;
     font-size: x-large;
     }
@@ -41,8 +40,8 @@ div{
         border: 1px solid red;
         border-radius: 10%;
         position: fixed;
-        right: 100px;
-        top: 200px;
+        right: 80px;
+        top: 150px;
         font-size: large;
         background-color:red ;
     }
