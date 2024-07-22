@@ -4,7 +4,7 @@ nav>strong{
     position: absolute;
     right: 45%;
     left: 45%;
-    top: 3%;
+    top: 2%;
     }
     body {
         background-color: lightgrey; 
@@ -19,7 +19,7 @@ div{
     font-size: x-large;
     }
     nav{
-    height: 50px;
+    height: 60px;
     width: 100%;
     border: 2PX solid black;
     background-color: aqua;
@@ -28,20 +28,33 @@ div{
     position: absolute;
     right: 40%;
     }
-    div.alphabet{
-        font-size: large;
+    button{
+        border-color: aqua;
+        background-color: aqua;
         position: absolute;
-        right: 12%;
-        left: 12%;
+        top: 6%;
+    }
+    *{
+        font-family: "Caveat Brush", cursive;
+        font-weight: 700px;
+        font-style: normal;
+    }
+    div.alphabet{
+        text-decoration-color: blue;
+        font-size: large;
+        display: flex;
+        justify-content:space-evenly;
+        align-content: center;
+        align-self: center;
     }
     div.top{
         height: 30px;
         width: 30px;
-        border: 1px solid red;
+        border: 1px solid aqua;
         border-radius: 10%;
         position: fixed;
         right: 80px;
         top: 150px;
         font-size: large;
-        background-color:red ;
+        background-color:aqua ;
     }
